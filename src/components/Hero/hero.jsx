@@ -11,7 +11,7 @@ export default function Hero() {
 
             <div className='relative flex flex-col xl:flex-row items-end xl:items-center xl:h-96'>
                 <div className='pt-5 xl:pt-0 w-full px-4 mx-auto max-w-2xl xl:px-0 lg:max-w-screen-xl'>
-                    <h1 className='font-bold text-3xl xl:text-4xl'>Home Bakery</h1>
+                    <h1 className='font-bold text-3xl xl:text-4xl text-[#FC8A22]'>Home Bakery</h1>
                     <p className='mt-3 xl:w-1/2 xl:mt-5'>Dibuat dengan ketelatenan oleh para ahli roti kami, setiap produk kami adalah perpaduan sempurna antara rasa autentik dan sentuhan kreatif modern.</p>
                 </div>
 
