@@ -12,7 +12,7 @@ const navLinks = [
 
 export default function NavList() {
     return (
-        <nav className='hidden md:block'>
+        <nav className='hidden xl:block'>
             <ul className='flex'>
                 {navLinks.map((link, index) => (
                     <li key={index}>
