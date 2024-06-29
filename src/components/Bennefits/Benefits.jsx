@@ -44,7 +44,7 @@ export default function Benefits() {
                                     <div className="w-[100px] h-[100px] bg-[#FFF0E6] flex items-center justify-center rounded-full">
                                         <IconComponent size={64} color="#FC8A22" />
                                     </div>
-                                    <h3 className="text-lg font-semibold my-4">{feature.title}</h3>
+                                    <h3 className="text-base md:text-lg font-semibold mt-4 mb-2">{feature.title}</h3>
                                     <p className="text-center">{feature.description}</p>
                                 </div>
                             </div>
