@@ -41,7 +41,7 @@ const customTheme = {
             }
         },
         "control": {
-            "base": "inline-flex h-10 w-10 md:h-14 md:w-14 items-center justify-center rounded-full bg-[#FC8A22]/40 group-hover:bg-[#FC8A22]/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-[#FC8A22] ",
+            "base": "inline-flex h-10 w-10 md:h-14 md:w-14 items-center justify-center rounded-full bg-[#FC8A22]/40 group-hover:bg-[#FC8A22]/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-[#FC8A22]/60 ",
             "icon": "h-6 w-6 md:h-8 md:w-8 text-white/50"
         },
         "scrollContainer": {

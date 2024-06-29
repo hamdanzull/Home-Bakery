@@ -16,7 +16,7 @@ export default function Header() {
 
                     <NavList />
 
-                    <a href="" className='bg-[#FC8A22] text-sm px-3 py-2 rounded-full'>Contact Us</a>
+                    <a href="" className='bg-[#FC8A22] text-[#F7F7FA] font-medium text-sm px-3 py-2 rounded-full'>About Us</a>
                 </div>
             </div>
         </header>

@@ -40,7 +40,7 @@ export default function Benefits() {
                         const IconComponent = icons[feature.icon];
                         return (
                             <div key={index} className="feature-item w-full md:w-1/2 lg:w-1/4">
-                                <div className="p-5 bg-whit h-full flex flex-col items-center">
+                                <div className="p-5 h-full flex flex-col items-center">
                                     <div className="w-[100px] h-[100px] bg-[#FFF0E6] flex items-center justify-center rounded-full">
                                         <IconComponent size={64} color="#FC8A22" />
                                     </div>
