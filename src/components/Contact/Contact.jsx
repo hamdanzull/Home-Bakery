@@ -14,36 +14,36 @@ export default function Contact() {
                         referrerPolicy="no-referrer-when-downgrade">
                     </iframe>
                     <div className="flex flex-col gap-3 justify-center">
-                        <a href="http://wa.me/6285816270169" target="_blank" rel="noopener noreferrer"
-                            className="flex items-center gap-2 hover:text-[#FC8A22] transition-all duration-300">
-                            <WhatsappLogo size={28} color="#FC8A22" weight="duotone" />
+                        <a href="http://wa.me/628975004004" target="_blank" rel="noopener noreferrer"
+                            className="flex items-center gap-1 md:gap-2 hover:text-[#FC8A22] transition-all duration-300">
+                            <WhatsappLogo className="w-5 md:w-6 h-5 md:h-6" color="#FC8A22" weight="duotone" />
                             <span>
-                                +62 858-1627-0169
+                                +62 897-5004-004
                             </span>
                         </a>
                         <a href="http://instagram.com/" target="_blank" rel="noopener noreferrer"
-                            className="flex items-center gap-2 hover:text-[#FC8A22] transition-all duration-300">
-                            <InstagramLogo size={28} color="#FC8A22" weight="duotone" />
+                            className="flex items-center gap-1 md:gap-2 hover:text-[#FC8A22] transition-all duration-300">
+                            <InstagramLogo className="w-5 md:w-6 h-5 md:h-6" color="#FC8A22" weight="duotone" />
                             <span>
                                 @home.bakery
                             </span>
                         </a>
                         <a href="http://facebook.com/" target="_blank" rel="noopener noreferrer"
-                            className="flex items-center gap-2 hover:text-[#FC8A22] transition-all duration-300">
-                            <FacebookLogo size={28} color="#FC8A22" weight="duotone" />
+                            className="flex items-center gap-1 md:gap-2 hover:text-[#FC8A22] transition-all duration-300">
+                            <FacebookLogo className="w-5 md:w-6 h-5 md:h-6" color="#FC8A22" weight="duotone" />
                             <span>
                                 Home Bakery
                             </span>
                         </a>
                         <a href="http://gmail.com/" target="_blank" rel="noopener noreferrer"
-                            className="flex items-center gap-2 hover:text-[#FC8A22] transition-all duration-300">
-                            <Envelope size={28} color="#FC8A22" weight="duotone" />
+                            className="flex items-center gap-1 md:gap-2 hover:text-[#FC8A22] transition-all duration-300">
+                            <Envelope className="w-5 md:w-6 h-5 md:h-6" color="#FC8A22" weight="duotone" />
                             <span>
                                 rumah.bakery@gmail.com
                             </span>
                         </a>
-                        <div className="flex gap-2">
-                            <MapPin size={28} color="#FC8A22" weight="duotone" />
+                        <div className="flex gap-1 md:gap-2">
+                            <MapPin className="w-5 md:w-6 h-5 md:h-6" color="#FC8A22" weight="duotone" />
                             <div className="w-full md:w-96 flex flex-col items-start gap-3">
                                 <span className="hover:text-[#FC8A22] transition-all duration-300">
                                     Jl. Nusa Indah, Ngringin, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281
