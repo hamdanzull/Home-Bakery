@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import HomePage from "./pages/HomePage"
 import ReactGA from "react-ga4";
 import CategoryDetail from "./pages/CategoryPage";
+import CartPage from "./pages/CartPage";
 
 const trackingId = "G-RFM1BS2D12"
 ReactGA.initialize(trackingId);
@@ -16,6 +17,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/cart" element={<CartPage />} />
         <Route path="/categories/:id" element={<CategoryDetail />} />
       </Routes>
     </Router>

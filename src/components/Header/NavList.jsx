@@ -3,11 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 const navLinks = [
     { to: '/', text: 'Home' },
-    { to: '/about', text: 'About Us' },
     { to: '/categories', text: 'Categories' },
-    { to: '/place', text: 'Place' },
-    { to: '/testimony', text: 'Testimony' },
     { to: '/contact', text: 'Contact' },
+    { to: '/testimony', text: 'Testimony' },
 ];
 
 export default function NavList() {
@@ -17,7 +15,7 @@ export default function NavList() {
                 {navLinks.map((link, index) => (
                     <li key={index}>
                         <NavLink to={link.to} className={
-                            ({ isActive }) => `px-3 cursor-pointer transition-colors duration-300 ${isActive ? 'text-[#FC8A22] font-semibold' : ''}`
+                            ({ isActive }) => `px-6 cursor-pointer transition-colors duration-300 ${isActive ? 'text-[#FC8A22] font-semibold' : ''}`
                         }>{link.text}</NavLink>
                     </li>
                 ))}

@@ -5,6 +5,7 @@ import Hero from '../components/Hero/hero';
 import Contact from '../components/Contact/Contact';
 import Testimony from '../components/Testimony/Testimony';
 import Footer from '../components/Footer/Footer';
+import FixedButton from '../components/FixedButton';
 
 export default function HomePage() {
     return (
@@ -16,6 +17,7 @@ export default function HomePage() {
             <Contact />
             <Testimony />
             <Footer />
+            <FixedButton />
         </>
     )
 }
