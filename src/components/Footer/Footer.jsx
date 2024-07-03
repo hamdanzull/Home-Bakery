@@ -2,7 +2,7 @@ import { Envelope, FacebookLogo, InstagramLogo, MapPin, WhatsappLogo } from "@ph
 
 export default function Footer() {
     return (
-        <footer className="bg-gray-600 text-[#F7F7FA] font-light">
+        <footer className="mt-auto bg-gray-600 text-[#F7F7FA] font-light">
             <div className="">
 
 

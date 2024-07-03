@@ -40,7 +40,9 @@ const CategoryItem = ({ item, categoryId }) => {
             currency: 'IDR',
             minimumFractionDigits: 0,
             maximumFractionDigits: 0,
-        }).format(number);
+        })
+            .format(number)
+            .replace(/\s+/g, '');
     };
 
     return (

@@ -7,6 +7,7 @@ import CartPage from "./pages/CartPage";
 import CategoriesPage from "./pages/CategoriesPage";
 import ContactPage from "./pages/ContactPage";
 import TestimonyPage from "./pages/TestimonyPage";
+import AboutPage from "./pages/AboutPage";
 
 const trackingId = "G-RFM1BS2D12"
 ReactGA.initialize(trackingId);
@@ -25,6 +26,7 @@ function App() {
         <Route path="/categories/:id" element={<CategoryDetail />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/testimony" element={<TestimonyPage />} />
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
     </Router>
   )
