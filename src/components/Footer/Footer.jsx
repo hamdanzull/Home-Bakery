@@ -109,7 +109,7 @@ export default function Footer() {
 
                 <div className="text-center h-[55px] flex items-center
                 w-full px-4 mx-auto max-w-2xl md:px-0 lg:max-w-screen-xl">
-                    <a href="/"><img src="chef-hat.svg" alt="Logo" /></a>
+                    <a href="/"><img src="/chef-hat.svg" alt="Logo" /></a>
                     <p className="w-full">&copy; {new Date().getFullYear()} <a className="font-semibold text-[#FC8A22]" href="/">Home Bakery</a> - All rights reserved.</p>
                 </div>
 

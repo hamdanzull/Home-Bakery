@@ -3,7 +3,7 @@ import { Envelope, FacebookLogo, InstagramLogo, MapPin, WhatsappLogo } from "@ph
 export default function Contact() {
     return (
         <section className="bg-[#F7F7FA]">
-            <div className="py-8 w-full px-4 mx-auto max-w-2xl md:px-0 lg:max-w-screen-xl">
+            <div className="py-8 pb-12 w-full px-4 mx-auto max-w-2xl md:px-0 lg:max-w-screen-xl">
                 <h1 className='mb-8 font-bold text-3xl text-left xl:text-4xl text-[#FC8A22]'>Our Contact</h1>
                 <div className="flex flex-col md:flex-row items-start gap-8">
                     <iframe

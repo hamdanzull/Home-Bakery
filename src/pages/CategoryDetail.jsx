@@ -5,6 +5,8 @@ import { categoriesData } from "../data/categoryData";
 import { ArrowSquareOut, ShoppingCart, Star } from "@phosphor-icons/react";
 import { useState } from "react";
 import FixedButton from "../components/FixedButton";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 const CategoryItem = ({ item, categoryId }) => {
     const [buttonText, setButtonText] = useState('Add to Cart');
@@ -29,7 +31,7 @@ const CategoryItem = ({ item, categoryId }) => {
         setTimeout(() => {
             setButtonText('Add to Cart');
             setIsClicked(false);
-        }, 3000);
+        }, 1000);
     };
 
     const formatCurrency = (number) => {
@@ -42,8 +44,8 @@ const CategoryItem = ({ item, categoryId }) => {
     };
 
     return (
-        <div className="category-item h-full w-1/2 md:w-1/2 lg:w-1/4 p-4 pt-14 md:pt-24">
-            <div className="relative px-4 md:px-5 bg-gray-50 shadow-[-3px_3px_20px_0px_rgba(0,0,0,0.10)] rounded-2xl flex flex-col items-center">
+        <div className="category-item w-1/2 md:w-1/2 lg:w-1/4 p-4 pt-14 md:pt-24">
+            <div className="relative h-full px-4 md:px-5 bg-gray-50 shadow-[-3px_3px_20px_0px_rgba(0,0,0,0.10)] rounded-2xl flex flex-col items-center">
                 <div className="relative w-24 md:w-40 flex justify-center">
                     <img
                         src={item.image}
@@ -94,20 +96,22 @@ export default function CategoryDetail() {
 
     return (
         <>
-            <FixedButton />
+            <Header />
             <section>
                 <div className="py-8 w-full px-4 mx-auto max-w-2xl md:px-0 lg:max-w-screen-xl">
                     <h1 className='mb-8 font-bold text-3xl text-center xl:text-4xl text-[#FC8A22]'>
                         {category.name}
                     </h1>
 
-                    <div className="flex flex-wrap justify-around">
+                    <div className="flex flex-wrap justify-center">
                         {category.items.map((item) => (
                             <CategoryItem key={item.id} item={item} categoryId={category.id} />
                         ))}
                     </div>
                 </div>
             </section>
+            <FixedButton />
+            <Footer />
         </>
     );
 }
