@@ -29,18 +29,18 @@ export default function AboutPage() {
                         <tbody>
                             <tr>
                                 <td className="border-b py-2 text-center">1</td>
-                                <td className="border-b py-2">Muhammad Hamdan Zulfa</td>
-                                <td className="border-b py-2 text-center">21.11.4039</td>
+                                <td className="border-b py-2">Ibnu Rokhmat Suudi</td>
+                                <td className="border-b py-2 text-center">22.82.1414</td>
                             </tr>
                             <tr>
                                 <td className="border-b py-2 text-center">2</td>
-                                <td className="border-b py-2">Mahardika Wildan Fitrian</td>
-                                <td className="border-b py-2 text-center">21.11.4036</td>
+                                <td className="border-b py-2">Dimas Sakti Henru Putra</td>
+                                <td className="border-b py-2 text-center">22.82.1402</td>
                             </tr>
                             <tr>
                                 <td className="border-b py-2 text-center">3</td>
-                                <td className="border-b py-2">Asrul Sepriawan Dwiantono</td>
-                                <td className="border-b py-2 text-center">21.11.3991</td>
+                                <td className="border-b py-2">Aldi Da Sylva</td>
+                                <td className="border-b py-2 text-center">22.82.1361</td>
                             </tr>
                         </tbody>
                     </table>
